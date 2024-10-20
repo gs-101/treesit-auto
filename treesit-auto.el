@@ -159,6 +159,12 @@ by manipulating the `treesit-auto-recipe-list' variable."
       :url "https://github.com/elixir-lang/tree-sitter-elixir"
       :ext "\\.ex\\'")
     ,(make-treesit-auto-recipe
+      :lang 'git-commit
+      :ts-mode 'git-commit-ts-mode
+      :remap 'git-commit-mode
+      :url "https://github.com/gbprod/tree-sitter-gitcommit"
+      :ext "\\COMMIT_EDITMSG\\'")
+    ,(make-treesit-auto-recipe
       :lang 'glsl
       :ts-mode 'glsl-ts-mode
       :remap 'glsl-mode
