@@ -185,7 +185,7 @@ by manipulating the `treesit-auto-recipe-list' variable."
       :ext "\\.heex\\'")
     ,(make-treesit-auto-recipe
       :lang 'html
-      :ts-mode 'html-ts-mode
+      :ts-mode 'mhtml-ts-mode
       :remap '(mhtml-mode sgml-mode)
       :url "https://github.com/tree-sitter/tree-sitter-html"
       :ext "\\.html\\'")
